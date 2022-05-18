@@ -13,6 +13,9 @@
 		0D29633F283526FE0028E7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D29633D283526FE0028E7CC /* Main.storyboard */; };
 		0D296341283527050028E7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D296340283527050028E7CC /* Assets.xcassets */; };
 		0D296344283527050028E7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D296342283527050028E7CC /* LaunchScreen.storyboard */; };
+		0D29634C283535810028E7CC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D29634B283535810028E7CC /* TableViewCell.swift */; };
+		0D2963502835392F0028E7CC /* InternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D29634F2835392F0028E7CC /* InternViewController.swift */; };
+		0D296353283539670028E7CC /* InternVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D296352283539670028E7CC /* InternVC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0D296340283527050028E7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D296343283527050028E7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D296345283527050028E7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D29634B283535810028E7CC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0D29634F2835392F0028E7CC /* InternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternViewController.swift; sourceTree = "<group>"; };
+		0D296352283539670028E7CC /* InternVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InternVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				0D296337283526FE0028E7CC /* AppDelegate.swift */,
 				0D296339283526FE0028E7CC /* SceneDelegate.swift */,
+				0D29634D283539060028E7CC /* LevelsVC */,
 				0D29633B283526FE0028E7CC /* ViewController.swift */,
+				0D29634B283535810028E7CC /* TableViewCell.swift */,
 				0D29633D283526FE0028E7CC /* Main.storyboard */,
 				0D296340283527050028E7CC /* Assets.xcassets */,
 				0D296342283527050028E7CC /* LaunchScreen.storyboard */,
 				0D296345283527050028E7CC /* Info.plist */,
 			);
 			path = "Grades iOS developers";
+			sourceTree = "<group>";
+		};
+		0D29634D283539060028E7CC /* LevelsVC */ = {
+			isa = PBXGroup;
+			children = (
+				0D29634E2835390F0028E7CC /* Intern */,
+			);
+			path = LevelsVC;
+			sourceTree = "<group>";
+		};
+		0D29634E2835390F0028E7CC /* Intern */ = {
+			isa = PBXGroup;
+			children = (
+				0D296351283539450028E7CC /* InternVC */,
+			);
+			path = Intern;
+			sourceTree = "<group>";
+		};
+		0D296351283539450028E7CC /* InternVC */ = {
+			isa = PBXGroup;
+			children = (
+				0D29634F2835392F0028E7CC /* InternViewController.swift */,
+				0D296352283539670028E7CC /* InternVC.storyboard */,
+			);
+			path = InternVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +161,7 @@
 				0D296344283527050028E7CC /* LaunchScreen.storyboard in Resources */,
 				0D296341283527050028E7CC /* Assets.xcassets in Resources */,
 				0D29633F283526FE0028E7CC /* Main.storyboard in Resources */,
+				0D296353283539670028E7CC /* InternVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2963502835392F0028E7CC /* InternViewController.swift in Sources */,
 				0D29633C283526FE0028E7CC /* ViewController.swift in Sources */,
+				0D29634C283535810028E7CC /* TableViewCell.swift in Sources */,
 				0D296338283526FE0028E7CC /* AppDelegate.swift in Sources */,
 				0D29633A283526FE0028E7CC /* SceneDelegate.swift in Sources */,
 			);
