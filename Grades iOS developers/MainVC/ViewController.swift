@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "LEVELS"
         tableView.delegate = self
         tableView.dataSource = self
     }

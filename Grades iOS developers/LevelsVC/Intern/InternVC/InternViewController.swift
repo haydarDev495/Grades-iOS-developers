@@ -8,7 +8,7 @@
 import UIKit
 
 class InternViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     let computerScience = ["Computer Science:", "   Data", "   OOP", "   Architecture", "   Network"]
@@ -27,6 +27,55 @@ class InternViewController: UIViewController {
 extension InternViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //1
+        if indexPath.row == 1 && indexPath.section == 0 {
+            let dataVC = UIStoryboard(name: "DataVC", bundle: nil).instantiateViewController(withIdentifier: "DataViewController") as! DataViewController
+            navigationController?.pushViewController(dataVC, animated: true)
+        }
+        
+        if indexPath.row == 2 && indexPath.section == 0 {
+            print("Hello")
+            let oopVC = UIStoryboard(name: "OOPVC", bundle: nil).instantiateViewController(withIdentifier: "OOPViewController") as! OOPViewController
+            navigationController?.pushViewController(oopVC, animated: true)
+        }
+        
+        if indexPath.row == 3 && indexPath.section == 0{
+            
+        }
+        
+        if indexPath.row == 4 && indexPath.section == 0{
+            
+        }
+        // 2
+        if indexPath.row == 1 && indexPath.section == 1{
+            
+        }
+        
+        if indexPath.row == 2 && indexPath.section == 1{
+            
+        }
+        
+        if indexPath.row == 3 && indexPath.section == 1{
+            
+        }
+        
+        if indexPath.row == 4 && indexPath.section == 1{
+            
+        }
+        
+        if indexPath.row == 5 && indexPath.section == 1{
+            
+        }
+        // 3
+        if indexPath.row == 1 && indexPath.section == 2{
+            
+        }
+        // 4
+        if indexPath.row == 1 && indexPath.section == 3{
+            
+        }
+        
         tableView.deselectRow(at: indexPath, animated: true)
     }
     

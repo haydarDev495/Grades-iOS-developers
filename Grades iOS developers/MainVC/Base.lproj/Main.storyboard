@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Levels-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Grades_iOS_developers" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,7 +69,7 @@
                             <constraint firstItem="Aom-qy-4C8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="p2H-ut-GJC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="zII-Yt-yJ4"/>
+                    <navigationItem key="navigationItem" title="Levels" id="zII-Yt-yJ4"/>
                     <connections>
                         <outlet property="tableView" destination="Aom-qy-4C8" id="yom-Ka-klb"/>
                     </connections>
@@ -83,11 +83,17 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4GN-aw-6P6" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3jZ-oa-IZY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="3jZ-oa-IZY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0bZ-9P-nPo">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gOB-5I-Wkh"/>
                     </connections>
