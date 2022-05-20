@@ -20,6 +20,24 @@
 		0D366DC428369706009C05EB /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DC328369706009C05EB /* secondViewController.swift */; };
 		0D366DC62836986B009C05EB /* OOPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DC52836986B009C05EB /* OOPViewController.swift */; };
 		0D366DC92836998C009C05EB /* OOPVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DC82836998C009C05EB /* OOPVC.storyboard */; };
+		0D366DCB2836B19A009C05EB /* ArhitVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DCA2836B19A009C05EB /* ArhitVC.storyboard */; };
+		0D366DCD2836B1B4009C05EB /* ArhitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DCC2836B1B4009C05EB /* ArhitViewController.swift */; };
+		0D366DCF2836B1C7009C05EB /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DCE2836B1C7009C05EB /* NetworkViewController.swift */; };
+		0D366DD12836B1DC009C05EB /* NetworkVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DD02836B1DC009C05EB /* NetworkVC.storyboard */; };
+		0D366DD428378728009C05EB /* XcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DD328378728009C05EB /* XcodeViewController.swift */; };
+		0D366DD62837873E009C05EB /* XcodeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DD52837873E009C05EB /* XcodeVC.storyboard */; };
+		0D366DD82837874D009C05EB /* ToolsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DD72837874D009C05EB /* ToolsVC.storyboard */; };
+		0D366DDA2837875B009C05EB /* ToolsVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DD92837875B009C05EB /* ToolsVCViewController.swift */; };
+		0D366DDC2837876F009C05EB /* UserInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DDB2837876F009C05EB /* UserInterfaceViewController.swift */; };
+		0D366DDE2837877F009C05EB /* UserVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DDD2837877F009C05EB /* UserVC.storyboard */; };
+		0D366DE028378796009C05EB /* ThreadingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DDF28378796009C05EB /* ThreadingVC.storyboard */; };
+		0D366DE2283787AE009C05EB /* SdkVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DE1283787AE009C05EB /* SdkVC.storyboard */; };
+		0D366DE4283787BE009C05EB /* SdkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DE3283787BE009C05EB /* SdkViewController.swift */; };
+		0D366DE6283787CE009C05EB /* ThreadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DE5283787CE009C05EB /* ThreadingViewController.swift */; };
+		0D366DE828378980009C05EB /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DE728378980009C05EB /* MemoryViewController.swift */; };
+		0D366DEA2837898F009C05EB /* MemoryVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DE92837898F009C05EB /* MemoryVC.storyboard */; };
+		0D366DEC283789BF009C05EB /* SwiftVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D366DEB283789BF009C05EB /* SwiftVC.storyboard */; };
+		0D366DEE283789CC009C05EB /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366DED283789CC009C05EB /* SwiftViewController.swift */; };
 		0DAD6D1128368C6300A6062D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD6D1028368C6300A6062D /* DataViewController.swift */; };
 		0DAD6D1328368C7300A6062D /* DataVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD6D1228368C7300A6062D /* DataVC.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,6 +58,24 @@
 		0D366DC328369706009C05EB /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		0D366DC52836986B009C05EB /* OOPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPViewController.swift; sourceTree = "<group>"; };
 		0D366DC82836998C009C05EB /* OOPVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OOPVC.storyboard; sourceTree = "<group>"; };
+		0D366DCA2836B19A009C05EB /* ArhitVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArhitVC.storyboard; sourceTree = "<group>"; };
+		0D366DCC2836B1B4009C05EB /* ArhitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhitViewController.swift; sourceTree = "<group>"; };
+		0D366DCE2836B1C7009C05EB /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		0D366DD02836B1DC009C05EB /* NetworkVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetworkVC.storyboard; sourceTree = "<group>"; };
+		0D366DD328378728009C05EB /* XcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeViewController.swift; sourceTree = "<group>"; };
+		0D366DD52837873E009C05EB /* XcodeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = XcodeVC.storyboard; sourceTree = "<group>"; };
+		0D366DD72837874D009C05EB /* ToolsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToolsVC.storyboard; sourceTree = "<group>"; };
+		0D366DD92837875B009C05EB /* ToolsVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsVCViewController.swift; sourceTree = "<group>"; };
+		0D366DDB2837876F009C05EB /* UserInterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceViewController.swift; sourceTree = "<group>"; };
+		0D366DDD2837877F009C05EB /* UserVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserVC.storyboard; sourceTree = "<group>"; };
+		0D366DDF28378796009C05EB /* ThreadingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThreadingVC.storyboard; sourceTree = "<group>"; };
+		0D366DE1283787AE009C05EB /* SdkVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SdkVC.storyboard; sourceTree = "<group>"; };
+		0D366DE3283787BE009C05EB /* SdkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkViewController.swift; sourceTree = "<group>"; };
+		0D366DE5283787CE009C05EB /* ThreadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadingViewController.swift; sourceTree = "<group>"; };
+		0D366DE728378980009C05EB /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		0D366DE92837898F009C05EB /* MemoryVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoryVC.storyboard; sourceTree = "<group>"; };
+		0D366DEB283789BF009C05EB /* SwiftVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftVC.storyboard; sourceTree = "<group>"; };
+		0D366DED283789CC009C05EB /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		0DAD6D1028368C6300A6062D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		0DAD6D1228368C7300A6062D /* DataVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +187,8 @@
 		0D366DBB283690F7009C05EB /* Threating */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DDF28378796009C05EB /* ThreadingVC.storyboard */,
+				0D366DE5283787CE009C05EB /* ThreadingViewController.swift */,
 			);
 			path = Threating;
 			sourceTree = "<group>";
@@ -158,6 +196,8 @@
 		0D366DBC2836911D009C05EB /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DDB2837876F009C05EB /* UserInterfaceViewController.swift */,
+				0D366DDD2837877F009C05EB /* UserVC.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -165,6 +205,8 @@
 		0D366DBD28369127009C05EB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DD72837874D009C05EB /* ToolsVC.storyboard */,
+				0D366DD92837875B009C05EB /* ToolsVCViewController.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -172,6 +214,8 @@
 		0D366DBE2836912C009C05EB /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DD328378728009C05EB /* XcodeViewController.swift */,
+				0D366DD52837873E009C05EB /* XcodeVC.storyboard */,
 			);
 			path = Xcode;
 			sourceTree = "<group>";
@@ -195,6 +239,8 @@
 		0D366DC128369155009C05EB /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DE728378980009C05EB /* MemoryViewController.swift */,
+				0D366DE92837898F009C05EB /* MemoryVC.storyboard */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -202,6 +248,8 @@
 		0D366DC22836915D009C05EB /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DEB283789BF009C05EB /* SwiftVC.storyboard */,
+				0D366DED283789CC009C05EB /* SwiftViewController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -277,6 +325,8 @@
 		0DAD6D1528368DCA00A6062D /* ArchitectureVC */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DCA2836B19A009C05EB /* ArhitVC.storyboard */,
+				0D366DCC2836B1B4009C05EB /* ArhitViewController.swift */,
 			);
 			path = ArchitectureVC;
 			sourceTree = "<group>";
@@ -284,6 +334,8 @@
 		0DAD6D1628368DD400A6062D /* NetworkVC */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DCE2836B1C7009C05EB /* NetworkViewController.swift */,
+				0D366DD02836B1DC009C05EB /* NetworkVC.storyboard */,
 			);
 			path = NetworkVC;
 			sourceTree = "<group>";
@@ -314,6 +366,8 @@
 		0DAD6D1D28368E3600A6062D /* iOS Sdk + 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				0D366DE1283787AE009C05EB /* SdkVC.storyboard */,
+				0D366DE3283787BE009C05EB /* SdkViewController.swift */,
 			);
 			path = "iOS Sdk + 3rd";
 			sourceTree = "<group>";
@@ -378,10 +432,19 @@
 			files = (
 				0D296344283527050028E7CC /* LaunchScreen.storyboard in Resources */,
 				0D366DC92836998C009C05EB /* OOPVC.storyboard in Resources */,
+				0D366DE2283787AE009C05EB /* SdkVC.storyboard in Resources */,
 				0D296341283527050028E7CC /* Assets.xcassets in Resources */,
 				0D29633F283526FE0028E7CC /* Main.storyboard in Resources */,
+				0D366DE028378796009C05EB /* ThreadingVC.storyboard in Resources */,
+				0D366DEA2837898F009C05EB /* MemoryVC.storyboard in Resources */,
+				0D366DD62837873E009C05EB /* XcodeVC.storyboard in Resources */,
+				0D366DD82837874D009C05EB /* ToolsVC.storyboard in Resources */,
 				0DAD6D1328368C7300A6062D /* DataVC.storyboard in Resources */,
+				0D366DCB2836B19A009C05EB /* ArhitVC.storyboard in Resources */,
+				0D366DD12836B1DC009C05EB /* NetworkVC.storyboard in Resources */,
 				0D296353283539670028E7CC /* InternVC.storyboard in Resources */,
+				0D366DDE2837877F009C05EB /* UserVC.storyboard in Resources */,
+				0D366DEC283789BF009C05EB /* SwiftVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,13 +457,22 @@
 			files = (
 				0D366DC428369706009C05EB /* secondViewController.swift in Sources */,
 				0D2963502835392F0028E7CC /* InternViewController.swift in Sources */,
+				0D366DDA2837875B009C05EB /* ToolsVCViewController.swift in Sources */,
+				0D366DE828378980009C05EB /* MemoryViewController.swift in Sources */,
+				0D366DD428378728009C05EB /* XcodeViewController.swift in Sources */,
+				0D366DCF2836B1C7009C05EB /* NetworkViewController.swift in Sources */,
 				0DAD6D1128368C6300A6062D /* DataViewController.swift in Sources */,
 				0D29633C283526FE0028E7CC /* ViewController.swift in Sources */,
 				0D29634C283535810028E7CC /* TableViewCell.swift in Sources */,
 				0D296358283549D00028E7CC /* InternTableViewCell.swift in Sources */,
+				0D366DCD2836B1B4009C05EB /* ArhitViewController.swift in Sources */,
 				0D366DC62836986B009C05EB /* OOPViewController.swift in Sources */,
+				0D366DEE283789CC009C05EB /* SwiftViewController.swift in Sources */,
 				0D296338283526FE0028E7CC /* AppDelegate.swift in Sources */,
+				0D366DE4283787BE009C05EB /* SdkViewController.swift in Sources */,
+				0D366DE6283787CE009C05EB /* ThreadingViewController.swift in Sources */,
 				0D29633A283526FE0028E7CC /* SceneDelegate.swift in Sources */,
+				0D366DDC2837876F009C05EB /* UserInterfaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

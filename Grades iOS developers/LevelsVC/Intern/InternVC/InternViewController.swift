@@ -40,40 +40,49 @@ extension InternViewController : UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(oopVC, animated: true)
         }
         
-        if indexPath.row == 3 && indexPath.section == 0{
-            
+        if indexPath.row == 3 && indexPath.section == 0 {
+            let arhitVC = UIStoryboard(name: "ArhitVC", bundle: nil).instantiateViewController(withIdentifier: "ArhitViewController") as! ArhitViewController
+            navigationController?.pushViewController(arhitVC, animated: true)
         }
         
-        if indexPath.row == 4 && indexPath.section == 0{
-            
+        if indexPath.row == 4 && indexPath.section == 0 {
+            let networkVC = UIStoryboard(name: "NetworkVC", bundle: nil).instantiateViewController(withIdentifier: "NetworkViewController") as! NetworkViewController
+            navigationController?.pushViewController(networkVC, animated: true)
         }
         // 2
         if indexPath.row == 1 && indexPath.section == 1{
-            
+            let sdk = UIStoryboard(name: "SdkVC", bundle: nil).instantiateViewController(withIdentifier: "SdkViewController") as! SdkViewController
+            navigationController?.pushViewController(sdk, animated: true)
         }
         
         if indexPath.row == 2 && indexPath.section == 1{
-            
+            let userVC = UIStoryboard(name: "UserVC", bundle: nil).instantiateViewController(withIdentifier: "UserInterfaceViewController") as! UserInterfaceViewController
+            navigationController?.pushViewController(userVC, animated: true)
         }
         
         if indexPath.row == 3 && indexPath.section == 1{
-            
+            let threading = UIStoryboard(name: "ThreadingVC", bundle: nil).instantiateViewController(withIdentifier: "ThreadingViewController") as! ThreadingViewController
+            navigationController?.pushViewController(threading, animated: true)
         }
         
         if indexPath.row == 4 && indexPath.section == 1{
-            
+            let tools = UIStoryboard(name: "ToolsVC", bundle: nil).instantiateViewController(withIdentifier: "ToolsVCViewController") as! ToolsVCViewController
+            navigationController?.pushViewController(tools, animated: true)
         }
         
         if indexPath.row == 5 && indexPath.section == 1{
-            
+            let xCode = UIStoryboard(name: "XcodeVC", bundle: nil).instantiateViewController(withIdentifier: "XcodeViewController") as! XcodeViewController
+            navigationController?.pushViewController(xCode, animated: true)
         }
         // 3
         if indexPath.row == 1 && indexPath.section == 2{
-            
+            let memory = UIStoryboard(name: "MemoryVC", bundle: nil).instantiateViewController(withIdentifier: "MemoryViewController") as! MemoryViewController
+            navigationController?.pushViewController(memory, animated: true)
         }
         // 4
         if indexPath.row == 1 && indexPath.section == 3{
-            
+            let swift = UIStoryboard(name: "SwiftVC", bundle: nil).instantiateViewController(withIdentifier: "SwiftViewController") as! SwiftViewController
+            navigationController?.pushViewController(swift, animated: true)
         }
         
         tableView.deselectRow(at: indexPath, animated: true)
