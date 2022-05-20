@@ -11,7 +11,11 @@ class DataViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    @IBAction func collectionsButtonAction(_ sender: Any) {
+         guard let url = URL(string: "https://swiftbook.ru/content/languageguide/collection-types/") else { return }
+         UIApplication.shared.open(url)
     }
 }

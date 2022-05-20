@@ -32,9 +32,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fo4-We-REi">
-                                                    <rect key="frame" x="20" y="7" width="41.5" height="30"/>
+                                                    <rect key="frame" x="20" y="7" width="168.5" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="kke-GT-Bcv"/>
+                                                        <constraint firstAttribute="height" constant="30" id="FYM-FO-hCc"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,12 +42,13 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Fo4-We-REi" firstAttribute="centerY" secondItem="Zgz-6z-pVC" secondAttribute="centerY" id="iuT-bI-xcJ"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fo4-We-REi" secondAttribute="trailing" constant="20" symbolic="YES" id="vOS-nk-lUg"/>
-                                                <constraint firstItem="Fo4-We-REi" firstAttribute="leading" secondItem="Zgz-6z-pVC" secondAttribute="leading" constant="20" symbolic="YES" id="y1g-6F-1Ij"/>
+                                                <constraint firstItem="Fo4-We-REi" firstAttribute="leading" secondItem="Zgz-6z-pVC" secondAttribute="leading" constant="20" symbolic="YES" id="605-dl-ccX"/>
+                                                <constraint firstItem="Fo4-We-REi" firstAttribute="centerY" secondItem="Zgz-6z-pVC" secondAttribute="centerY" id="kd4-cc-wco"/>
+                                                <constraint firstAttribute="trailing" secondItem="Fo4-We-REi" secondAttribute="trailing" constant="185.5" id="tCa-2v-diC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="levelsLabelText" destination="Fo4-We-REi" id="HbA-WS-OdG"/>
                                         </connections>
@@ -86,7 +87,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="3jZ-oa-IZY">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
